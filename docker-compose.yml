@@ -1,0 +1,10 @@
+services:
+
+  postgres:
+    image: postgis/postgis
+    environment:
+      POSTGRES_USER: skeleton
+      POSTGRES_PASSWORD: skeleton
+      POSTGRES_DB: skeleton
+    ports:
+      - "5432:5432"
